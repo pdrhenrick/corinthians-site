@@ -1,0 +1,51 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000;
+    margin: 0;
+}
+header {
+    background-color: #000;
+    color: white;
+    padding: 10px 20px;
+}
+nav a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+main {
+    padding: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #eee;
+}
+.camisa-galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.camisa-galeria img {
+    width: 200px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+.center-img {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+}
